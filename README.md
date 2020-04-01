@@ -20,6 +20,8 @@ Run `$ python3 main.py` and login. The attachments and mail text will be downloa
 ### Issues
 * I-002: There is no error handling yet
 * I-003: Send files to the printer after saving them (or instead of saving them)
+* I-004: Make email prefixes optional
+* I-005: Generate output folder if it does not exist yet
 
 ### Changelog
 * C-I-001: Fixed downloading of images in HTML code

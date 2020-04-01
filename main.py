@@ -34,18 +34,18 @@ PASS = "asdf" if PRE_SET_ACCOUNT else getpass.getpass(prompt="Password: ")
 # Set mailbox to open
 MAILBOX = "Inbox"
 
-# Set mail prefix (leave empty if there is no prefix)
-FROM = '(FROM "asdf@outlook.com")'
-SUBJECT = 'This must be in the subject'
+# Set mail prefix (Don't leave empty)
+FROM = '(FROM "manetje76@outlook.com")'
+SUBJECT = '(SUBJECT "CnC / Online Bestellen")'
 
 # Set attachment download prefix
-ATTACH_PREFIX = "This_must_be_in_the_attachment_prefix"
+ATTACH_PREFIX = "bon"
 
 # Set the saving path of the pdf files
 SAVING_PATH = "./output"
 
 # Use the ordernumber for the output file name
-BARCODE_REGEX = r"\d"
+BARCODE_REGEX = r"\d\d\d\d\d\d\d"
 
 ##################################################################################
 " Functions and main loop "
